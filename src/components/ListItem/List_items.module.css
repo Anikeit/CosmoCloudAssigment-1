@@ -1,0 +1,74 @@
+.main {
+  width: 98%;
+  display: flex;
+  padding: 2% 1% 2% 1%;
+}
+
+.main:hover {
+  background-color: #ecebec;
+}
+
+.main__left {
+  width: 50%;
+  display: flex;
+  gap: 1rem;
+}
+
+.main__left__input {
+  width: 20%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #faf9fa;
+  font-size: 1rem;
+}
+
+.main__left__input__focus {
+  background-color: white;
+  font-size: 1.2rem;
+  padding: 0.6%;
+  width: 30%;
+}
+
+.main__left__select {
+  width: 30%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 1rem;
+}
+
+.main__right {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.main__right:nth-last-child(1) {
+  /* margin-right: 4%; */
+}
+
+.text__black {
+  padding-top : 5px;
+  padding-right: 5px;
+  color: black;
+  font-weight: 500;
+}
+
+.delete__container{
+  margin-left: 5px;
+}
+
+.main__right__add {
+  margin-right: 4%;
+  border: none;
+  outline: none;
+  background-color: white;
+  font-size: 1rem;
+}
+
+.main__right__add:hover {
+  cursor: pointer;
+}
